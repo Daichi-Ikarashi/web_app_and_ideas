@@ -1,0 +1,46 @@
+* {
+    font-family: 'noto sans';
+    font-weight: 550;
+    font-size: 18px;
+}
+p {
+    font-size: 20px;
+}
+
+.container {
+    padding: 30px;
+    background-color: rgba(187,204,210, 1);
+}
+
+table {
+    border: solid 2px black;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+table td {
+    padding: 8px;
+    text-align: center;
+    border:solid 1px #000;
+    border-collapse: collapse;
+}
+
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.today {
+    border: solid 2px red;
+    background-color: rgba(255,0,0, .2);
+}
+
+.btn {
+    margin: 20px 0;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
