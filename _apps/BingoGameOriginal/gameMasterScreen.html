@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>gameMasterScreen</title>
+        <link type="text/css" rel="stylesheet" charset="UTF-8" href="style.css">
+    </head>
+    <body>
+        <h1><span>JB</span>INGO 会場</h1>
+        <p>クイズ番号が表示されます↓↓</p>
+
+        <button id='start_button'>スタート</button>
+        <button id='answer_button'>動画</button>
+
+        <div class="main" id='main'></div>
+        <div class="video" id="video-area"></div>
+        <div class="problem" id="problem-area"></div>
+        <div class="problem-v video" id="problem-v-area"></div>
+        <!--
+            <div class="answer" id="answer-area"></div>
+        -->
+        
+
+        <h2>すでに出た数字</h2>
+        <button id='history_button'>表示</button>
+        <div class="answer" id="history"></div>
+    </body>
+    <style>
+        span{
+            color: orange;
+        }
+        .main{
+            font-size: 80px;
+            height: 120px;
+        }
+        h2 {
+            position: absolute;
+            top: 650px;
+            left: 20px;
+        }
+        #history_button{
+            position: absolute;
+            top: 710px;
+            left: 20px;
+        }
+        .answer{
+            position: absolute;
+            top: 730px;
+            left: 20px;
+            font-size: 50px;
+            height: 100px;
+            width: 15vw;
+            overflow-wrap: normal;
+        }
+        video {
+            position: absolute;
+            top: 260px;
+            left: 20px;
+        }
+        img {
+            position: absolute;
+            top: 260px;
+            left: 20px;
+        }
+    </style>
+    <script type="text/javascript" src="master.js"></script>
+</html>
